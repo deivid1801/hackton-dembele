@@ -1,6 +1,5 @@
-<!-- src/App.vue -->
 <template>
-      <header>
+    <header>
       <nav class="navbar">
         <div class="link-container">
         <router-link class="link">Inicio</router-link>
@@ -12,24 +11,9 @@
       </nav>
     
     </header>
-  <div id="app">
-    <Signup />
-  </div>
-
-</template>
-
-<script setup>
-import Signup from './components/Signup.vue';
-import menu from './components/menu.vue'
-</script>
-
-<style>
-#app {
-  text-align: center;
-  color: #2c3e50;
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  margin-top: 60px;
-}
+    
+    </template>
+    <style scoped>
 .navbar {
   background-color: #676767;
   width: 100%;
@@ -76,5 +60,4 @@ label {
   margin-right: auto;
   margin-left: 50px;
   margin-top: 20px;
-}
-</style>
+}</style>
