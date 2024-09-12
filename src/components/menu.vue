@@ -6,6 +6,7 @@
         <router-link class="link">Alugar</router-link>
         <router-link class="link">Login</router-link>
         <router-link class="link">Sing in</router-link>
+       
         </div>
         
       </nav>

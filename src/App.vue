@@ -1,26 +1,24 @@
-<!-- src/App.vue -->
 <template>
       <header>
       <nav class="navbar">
         <div class="link-container">
         <router-link class="link">Inicio</router-link>
         <router-link class="link">Alugar</router-link>
-        <router-link class="link">Login</router-link>
-        <router-link class="link">Sing in</router-link>
+        <router-link to="/login" class="link">Login</router-link>
+        <router-link to="/singin" class="link">Sing in</router-link>
+        
         </div>
         
       </nav>
     
     </header>
   <div id="app">
-    <Signup />
+    <router-view></router-view>
   </div>
-
 </template>
 
 <script setup>
-import Signup from './components/Signup.vue';
-import menu from './components/menu.vue'
+
 </script>
 
 <style>
@@ -28,7 +26,6 @@ import menu from './components/menu.vue'
   text-align: center;
   color: #2c3e50;
   font-family: Avenir, Helvetica, Arial, sans-serif;
-  margin-top: 60px;
 }
 .navbar {
   background-color: #676767;

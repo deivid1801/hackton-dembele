@@ -52,7 +52,7 @@ import { ref } from 'vue';
 const username = ref('');
 const email = ref('');
 const password = ref('');
-const confirmPassword = ref('');
+const confirmPasIniciosword = ref('');
 const message = ref('');
 
 const handleSignup = async () => {
@@ -96,7 +96,7 @@ const handleSignup = async () => {
 <style scoped>
 .signup-container {
   background-color: #fff;
-  padding: 20px;
+  padding: 40px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 300px;
@@ -105,7 +105,7 @@ const handleSignup = async () => {
 }
 
 .signup-container input {
-  width: 100%;
+  width: 90%;
   padding: 10px;
   margin: 10px 0;
   border: 1px solid #ccc;
@@ -129,5 +129,8 @@ const handleSignup = async () => {
 .message {
   margin-top: 10px;
   color: #ff0000;
+}
+label{
+margin-left: 0px;
 }
 </style>
